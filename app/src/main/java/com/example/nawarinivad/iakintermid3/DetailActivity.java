@@ -59,7 +59,7 @@ public class DetailActivity extends AppCompatActivity {
         ContentValues contentValues = new ContentValues();
 
         contentValues.put(MovieContract.MovieEntry.COLUMN_TITLE, movie.getTitle());
-        contentValues.put(MovieContract.MovieEntry.COLUMN_POSTER_IMAGE_NAME, movie.getBackdropPath());
+        contentValues.put(MovieContract.MovieEntry.COLUMN_POSTER_IMAGE_NAME, movie.getPoster_path());
         contentValues.put(MovieContract.MovieEntry.COLUMN_SYNOPSIS, movie.getTitle());
         contentValues.put(MovieContract.MovieEntry.COLUMN_RATING, movie.getOverview());
         contentValues.put(MovieContract.MovieEntry.COLUMN_RELEASE_DATE, movie.getReleaseDate());
